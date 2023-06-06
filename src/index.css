@@ -1,0 +1,124 @@
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* DARK MODE */
+  --clr-bg-dark: #0d0b14;
+  --clr-text-dark: #f5f5f5;
+
+  /* LIGHT MODE */
+  --clr-bg-light: #f5f5f5;
+  --clr-text-light: #0d0b14;
+
+  /* COLORS */
+  --clr-black: #0d0b14;
+  --clr-primary: #635bff;
+  --clr-secondary: #6c757d;
+  --clr-success: #79ff68;
+  --clr-info: #65ceff;
+  --clr-warning: #e5b65a;
+  --clr-danger: #e45b5d;
+  --clr-dark: #212529;
+  --clr-light: #f1f1f1;
+
+  /* FONTS */
+  --ff-primary: 'Poppins', sans-serif;
+  --ff-secondary: 'Anton', sans-serif;
+
+  /* SHADOWS */
+  --shadow-dark: #1a1a1a;
+  --shadow-light: #222222;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(241, 179, 210);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(216, 129, 171);
+} */
+
+::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-black);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  transition: background 0.3s;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--clr-black);
+  font-family: var(--ff-primary);
+  object-fit: cover;
+  overflow-x: hidden;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  font-family: var(--ff-secondary);
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light-mode) {
+  :root {
+    --bg: var(--clr-bg-light);
+    --txt: var(--clr-bg-dark);
+    color-scheme: light;
+  }
+
+}
+
+@media (prefers-color-scheme: dark-mode) {
+  :root {
+    --bg: var(--clr-bg-dark);
+    --txt: var(--clr-bg-light);
+    color-scheme: dark;
+  }
+}
+
+
+:root[color-scheme="dark-mode"] {
+  --bg: var(--clr-bg-dark);
+  --txt: var(--clr-bg-light);
+  color-scheme: dark;
+}
+
+:root[color-scheme="light-mode"] {
+  --bg: var(--clr-bg-light);
+  --txt: var(--clr-bg-dark);
+  color-scheme: light;
+}

@@ -1,0 +1,38 @@
+::-webkit-scrollbar-thumb {
+    background-color: #2a2a2a;
+    animation: bodyColor 30s linear infinite;
+}
+
+@keyframes bodyColor {
+    0% {
+        stopColor: #fead56;
+    }
+
+    15% {
+        stopColor: #70bd40;
+    }
+
+    30% {
+        stopColor: #47eaff;
+    }
+
+    45% {
+        stopColor: #8e57e7;
+    }
+
+    60% {
+        stopColor: #c652e3;
+    }
+
+    75% {
+        stopColor: #f84e69;
+    }
+
+    90% {
+        stopColor: #ff6347;
+    }
+
+    100% {
+        stopColor: #fead56;
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "home": {
+        "greeting1": "¡Hola!, Soy",
+        "greeting2": "Fernanda Jensen",
+        "greeting3": "desarrolladora full stack"
+    },
+    "about": {
+        "intro": "Soy una desarrolladora web freelancer y estudiante del Desarrollo Full Stack. Disfruto convirtiendo las ideas de mis clientes en sitios web dinámicos y centrados en el usuario. Mi objetivo es crear interfaces que no solo sean eficientes y perfectamente responsive en todos los dispositivos, sino que también se destaquen en brindar una experiencia de usuario excepcional."
+    }
+}

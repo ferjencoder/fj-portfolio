@@ -1,0 +1,10 @@
+{
+    "home": {
+        "greeting1": "Hello!, I'm",
+        "greeting2": "Fernanda Jensen",
+        "greeting3": "full stack developer"
+    },
+    "about": {
+        "intro": "I'm a freelance web developer and a Full Stack Developer student. With a passion for coding, I take joy in turning my clients' ideas into dynamic, user-centric websites. My goal is to create interfaces that are not only efficient and seamlessly responsive across all devices but also excel in delivering an outstanding user experience."
+    }
+}
