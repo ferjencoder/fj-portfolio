@@ -39,8 +39,8 @@
     align-content: flex-end;
 }
 
-.slide__container:hover .icon__name,
-.slide__container:active .icon__name {
+.icon__container:hover .icon__name,
+.icon__container:active .icon__name {
     opacity: 1;
 }
 

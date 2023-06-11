@@ -1,4 +1,3 @@
 
 
-export * from './Fishes';
-// export * from './Particles';
+export * from './Particles';

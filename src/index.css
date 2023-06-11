@@ -60,9 +60,6 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   width: 100%;
-  overflow-x: hidden;
-  /* min-width: 100vw;
-  min-height: 100vh; */
   background-color: var(--clr-black);
   font-family: var(--ff-primary);
   object-fit: cover;

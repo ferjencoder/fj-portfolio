@@ -18,6 +18,8 @@
     height: 40vh;
     background-color: #0d0b14;
     z-index: 2000;
+    inset: 0;
+    margin: auto;
 }
 
 .icon {
@@ -60,6 +62,10 @@ h1 {
 }
 
 .fishes__container {
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+    /* or any desired position value */
+    width: 100%;
+    /* or specify a fixed width */
+    height: 400px;
+    /* or specify a fixed height */
 }

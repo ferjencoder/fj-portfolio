@@ -12,7 +12,7 @@ import { AnimatedLetter } from '../AnimatedLetter';
 import { Navbar } from '../Navbar/Navbar';
 import { Projects } from '../Projects';
 import { Skills } from '../Skills/Skills';
-import { Fishes } from '../Particles';
+import { Particles } from '../Particles';
 import AOS from 'aos';
 
 
@@ -49,7 +49,6 @@ export const Home = () => {
 
             <section className='home__container'>
 
-                {/* Use map function to render each letter individually */}
                 <article className="hero__text">
                     {
                         greeting1.split( '' ).map( ( letter, index ) => (
@@ -179,13 +178,11 @@ export const Home = () => {
                 </div>
                 <div className='home__wave'>
                     <WaveBottom currentColor={currentColor} />
+                    <Particles />
                     <WaveTopTwo currentColor={currentColor} />
                 </div>
             </section>
 
-            <section className='fishes__container'>
-                <Fishes />
-            </section>
 
         </section>
     )
