@@ -16,6 +16,8 @@
     justify-content: center;
     /* height: 5vh; */
     height: 40vh;
+    background-color: #0d0b14;
+    z-index: 2000;
 }
 
 .icon {
