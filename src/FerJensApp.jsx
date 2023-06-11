@@ -1,5 +1,5 @@
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import { About, Contact, Footer, Home, Navbar, Portfolio, Scrollbar, ThemeSwitcher } from './components';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { About, Contact, Home, Navbar, Portfolio, Scrollbar, ThemeSwitcher } from './components';
 import './index.css';
 import './components/Scrollbar/Scrollbar.css';
 import { Provider } from 'react-redux';
@@ -11,7 +11,7 @@ export const FerJensApp = () => {
 
     <Provider store={store}>
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <Scrollbar />
         <Routes>
           <Route path='/' element={<Home />} />

@@ -1,0 +1,3 @@
+.perojects__container {
+    width: min(100% - 3rem, 65ch);
+}

@@ -23,14 +23,15 @@
 
   /* COLORS */
   --clr-black: #0d0b14;
-  --clr-primary: #635bff;
   --clr-secondary: #6c757d;
+  --clr-primary: #635bff;
   --clr-success: #79ff68;
   --clr-info: #65ceff;
   --clr-warning: #e5b65a;
   --clr-danger: #e45b5d;
   --clr-dark: #212529;
   --clr-light: #f1f1f1;
+  --clr-pink: #ff4580;
 
   /* FONTS */
   --ff-primary: 'Poppins', sans-serif;
@@ -40,22 +41,6 @@
   --shadow-dark: #1a1a1a;
   --shadow-light: #222222;
 }
-
-/* ::-webkit-scrollbar {
-  width: 0.5em;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--clr-black);
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(241, 179, 210);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(216, 129, 171);
-} */
 
 ::-webkit-scrollbar {
   width: 0.8em;
@@ -73,8 +58,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+  /* min-width: 100vw;
+  min-height: 100vh; */
   background-color: var(--clr-black);
   font-family: var(--ff-primary);
   object-fit: cover;

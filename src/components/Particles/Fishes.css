@@ -1,0 +1,105 @@
+.particles-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 3s all;
+}
+
+.particles-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color-transition {
+    transition: background-color 0.5s ease;
+}
+
+.color-transition-color1 {
+    background-color: #70bd40;
+}
+
+.color-transition-color2 {
+    background-color: #47eaff;
+}
+
+.color-transition-color3 {
+    background-color: #8e57e7;
+}
+
+/* Add more classes for each color */
+
+
+.circles {
+    animation: colorAnimation 30s linear infinite;
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-color: #fead56;
+    }
+
+    10% {
+        background-color: transparent;
+    }
+
+    15% {
+        background-color: #70bd40;
+    }
+
+    25% {
+        background-color: transparent;
+
+    }
+
+    30% {
+        background-color: #47eaff;
+    }
+
+    40% {
+        background-color: transparent;
+
+    }
+
+    45% {
+        background-color: #8e57e7;
+    }
+
+    55% {
+        background-color: transparent;
+    }
+
+    60% {
+        background-color: #c652e3;
+    }
+
+    75% {
+        background-color: transparent;
+
+    }
+
+    80% {
+        background-color: #f84e69;
+    }
+
+    85% {
+        background-color: transparent;
+
+    }
+
+    90% {
+        background-color: #ff6347;
+    }
+
+    95% {
+        background-color: transparent;
+
+    }
+
+    100% {
+        background-color: #fead56;
+    }
+}

@@ -10,42 +10,42 @@ import { Logo } from '../Logo';
 import './Navbar.css'
 
 export const Navbar = () => {
-    const [ open, setOpen ] = useState( "" );
+    // const [ open, setOpen ] = useState( "" );
     const dispatch = useDispatch();
     const colorIndex = useSelector( state => state.colorOne.colorIndex );
     const colors = useSelector( state => state.colorOne.colors );
     const currentColor = colors[ colorIndex ];
 
-    useEffect( () => {
-        const interval = setInterval( () => {
-            dispatch( nextColorOne() );
-        }, 5000 ); // Change color every 5 seconds
+    // useEffect( () => {
+    //     const interval = setInterval( () => {
+    //         dispatch( nextColorOne() );
+    //     }, 5000 ); // Change color every 5 seconds
 
-        return () => clearInterval( interval ); // Clean up on unmount
-    }, [ dispatch ] );
+    //     return () => clearInterval( interval ); // Clean up on unmount
+    // }, [ dispatch ] );
 
-    useEffect( () => {
-        document.querySelectorAll( '.navbar__link' ).forEach( stop => {
-            stop.style.color = currentColor;
-            stop.style.transition = 'color 5s';
-        } );
-    }, [ currentColor ] );
+    // useEffect( () => {
+    //     document.querySelectorAll( '.navbar__link' ).forEach( stop => {
+    //         stop.style.color = currentColor;
+    //         stop.style.transition = 'color 5s';
+    //     } );
+    // }, [ currentColor ] );
 
     const logo = 'https://res.cloudinary.com/ferjen/image/upload/v1685848510/portfolio/logo/fj-logo_red_24x24_pixxr4.svg';
 
-    const openClose = () => {
-        open === "navbar__is-active" ? setOpen( "" ) : setOpen( "navbar__is-active" );
-    };
+    // const openClose = () => {
+    //     open === "navbar__is-active" ? setOpen( "" ) : setOpen( "navbar__is-active" );
+    // };
 
-    const closeMenu = () => {
-        setOpen( "" );
-    };
+    // const closeMenu = () => {
+    //     setOpen( "" );
+    // };
 
     return (
         <>
             <nav className="navbar__container">
 
-                <NavLink className={`navbar__logo ${open}`} to="/home">
+                <NavLink className={`navbar__logo`} to="/home">
                     <Logo />
                 </NavLink>
 
@@ -60,7 +60,7 @@ export const Navbar = () => {
                     <NavLink className="navbar__link" to="/contact">Contact</NavLink>
 
                 </div>
-                <button
+                {/* <button
                     className={`navbar__hamburger ${open}`}
                     onClick={() => {
                         openClose();
@@ -69,10 +69,10 @@ export const Navbar = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                </button>
+                </button> */}
             </nav>
 
-            <nav className="navbar__mobile">
+            {/* <nav className="navbar__mobile">
                 <div className={`navbar__mobile__container ${open}`}>
                     <div className="mobile__link">
 
@@ -89,7 +89,7 @@ export const Navbar = () => {
                         <Footer />
                     </div>
                 </div>
-            </nav>
+            </nav> */}
         </>
     );
 };

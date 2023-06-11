@@ -1,3 +1,4 @@
 .about__container {
     width: min(100% - 3rem, 65ch);
+    line-height: 1.8em;
 }

@@ -1,0 +1,82 @@
+.carousel__container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.icon__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.skills__rack {
+    width: min(100% - 3rem, 85ch);
+    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    z-index: 5;
+}
+
+.slide__container {
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+}
+
+.slide__container--top {
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.slide__container--bottom {
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.slide__container:hover .icon__name,
+.slide__container:active .icon__name {
+    opacity: 1;
+}
+
+.icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.25em 0.4em;
+    border-radius: 0.3rem;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.icon__name {
+    color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-weight: 600;
+}
+
+.icon__name--top {
+    top: -2rem;
+}
+
+.icon__name--bottom {
+    bottom: -2rem;
+}
+
+.carousel__inner-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}

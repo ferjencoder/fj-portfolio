@@ -4,7 +4,80 @@
         "greeting2": "Fernanda Jensen",
         "greeting3": "desarrolladora full stack"
     },
+    "homeIcons": {
+        "javascript": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379461/portfolio/icons/skills/1javascript_t68qfu.svg",
+            "alt": "Javascript logo",
+            "title": "Javascript"
+        },
+        "react": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379461/portfolio/icons/skills/2react_fey5ml.svg",
+            "alt": "React logo",
+            "title": "React"
+        },
+        "hmtl": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379564/portfolio/icons/skills/3hmtl_efcaxn.svg",
+            "alt": "HTML logo",
+            "title": "HTML"
+        },
+        "redux": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/4redux_hydap6.svg",
+            "alt": "Redux logo",
+            "title": "Redux"
+        },
+        "css": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/5css_qvymac.svg",
+            "alt": "Css logo",
+            "title": "Css"
+        },
+        "sass": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/6sass_yragml.svg",
+            "alt": "Sass logo",
+            "title": "Sass"
+        },
+        "bootstrap": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/7bootstrap_afxmkh.svg",
+            "alt": "Bootstrap logo",
+            "title": "Bootstrap"
+        },
+        "firebase": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/8firebase_qdk2v5.svg",
+            "alt": "Firebase logo",
+            "title": "Firebase"
+        },
+        "nodejs": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/9nodejs_pmgwuq.svg",
+            "alt": "Nodejs logo",
+            "title": "Nodejs"
+        },
+        "0git": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/10git_ye1o4i.svg",
+            "alt": "Git logo",
+            "title": "Git"
+        },
+        "expressjs": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/11expressjs_eh8ygn.svg",
+            "alt": "Expressjs logo",
+            "title": "Expressjs"
+        },
+        "mongodb": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/12mongodb_f0dnp8.svg",
+            "alt": "Mongo DB logo",
+            "title": "Mongo DB"
+        },
+        "i18n": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/13i18n_kvc7kh.svg",
+            "alt": "Mongo DB logo",
+            "title": "Mongo DB"
+        },
+        "adobe": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/14adobe_mucibg.svg",
+            "alt": "Adobe logo",
+            "title": "Adobe"
+        }
+    },
     "about": {
-        "intro": "Soy una desarrolladora web freelancer y estudiante del Desarrollo Full Stack. Disfruto convirtiendo las ideas de mis clientes en sitios web dinámicos y centrados en el usuario. Mi objetivo es crear interfaces que no solo sean eficientes y perfectamente responsive en todos los dispositivos, sino que también se destaquen en brindar una experiencia de usuario excepcional."
+        "title": "Acerca de mi",
+        "intro": "Soy una apasionada desarrolladora web y de aplicaciones Andriod y IOS, freelancer y estudiante del Desarrollo Full Stack, especializada en JavaScript, Python, MongoDB, Express.js, React, React Native, Node.js, entre otros. Me apasiona transformar las ideas de mis clientes en sitios web dinámicos y centrados en el usuario, utilizando mis habilidades de resolución de problemas, atención al detalle y comunicación efectiva. He tenido la oportunidad de trabajar en el desarrollo de sitios web de comercio electrónico y una aplicación de chat en tiempo real, superando diversos desafíos y logrando resultados significativos. Estas experiencias me han permitido perfeccionar mi habilidad para crear interfaces que no solo son eficientes y perfectamente responsive en todos los dispositivos, sino que también se destacan en brindar una experiencia de usuario excepcional. En mi tiempo libre, disfruto de hacer senderismo, ciclismo, fotografía digital, leer y programar proyectos personales. #AmanteDeLosPerros #EquipoCafé #ModoOscuroPorSupuesto #ApasionadaDeLaNaturaleza #PensáDosVecesCodeaUna. Estoy buscando una posición en la que pueda continuar creciendo, aportando valor a un equipo de trabajo y aprendiendo nuevas tecnologías."
     }
 }
