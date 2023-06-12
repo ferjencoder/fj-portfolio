@@ -1,10 +1,114 @@
-.perojects__container {
-    width: min(100% - 3rem, 65ch);
+.projects__container {
+    width: min(100% - 20rem);
     line-height: 1.8em;
     background-color: #0d0b14;
     z-index: 2000;
 }
 
-.project__video {
+.tv__container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.project__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project__text {
+    grid-column: 1;
+    grid-row: 1;
     width: 100%;
+}
+
+.laptop__container {
+    grid-column: 1;
+    grid-row: 1;
+    width: 70rem;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.project__video {
+    width: 50%;
+}
+
+.laptop__image {
+    /* position: absolute; */
+    position: relative;
+    width: 50rem;
+    height: auto;
+}
+
+.veggieBox__video {
+    position: absolute;
+    width: 32em;
+    height: 28em;
+    bottom: 1.4em;
+    left: 12.3em;
+    border: 15px solid #0d0b14;
+    border-radius: 0.55rem;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    width: 33.7em;
+    height: 29.9em;
+    bottom: 1.4em;
+    left: 12.5em;
+    border-radius: 0.55rem;
+    /* background: radial-gradient(circle at center, transparent, rgba(0, 0, 0, 0.654) 80%);*/
+    box-shadow: -8px -2px 86px 3px rgba(0, 0, 0, 0.94) inset;
+    -webkit-box-shadow: -8px -2px 86px 3px rgba(0, 0, 0, 0.94) inset;
+    -moz-box-shadow: -8px -2px 86px 3px rgba(0, 0, 0, 0.94) inset;
+    pointer-events: none;
+}
+
+.devices__container {
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+.btn-next {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 0;
+    background-color: #ff26d7;
+    box-shadow: inset 0px 0px 5px 7px #ff0eb3;
+    background: linear-gradient(#ff26d7, #ba1c9d);
+    cursor: pointer;
+}
+
+.btn-next:hover {
+    border-radius: 50%;
+    background: #ff26d7;
+    box-shadow: inset 6px 6px 20px #ba1c9d,
+        inset -6px -6px 20px #ff30ff;
+}
+
+.btn-next--top {
+    right: 13.75rem;
+    top: 19.6rem;
+}
+
+.btn-next--btn {
+    height: 5rem;
+    /* box-shadow: #f810a2 -4px -1px 0px 0px; */
+}
+
+.btn-next--low {
+    right: 13.75rem;
+    top: 28.6rem;
+    rotate: 30deg;
 }
