@@ -32,7 +32,7 @@ export const Devices = () => {
                 <div className='laptop__container'>
                     <img
                         className='laptop__image'
-                        src="https://res.cloudinary.com/ferjen/image/upload/v1686527224/portfolio/projects/devices/iStock-1271796936-tv_adbiqg.png"
+                        src="https://res.cloudinary.com/ferjen/image/upload/v1687033742/portfolio/projects/devices/tv-violet-space_oqdm63.png"
                         alt="" />
                     <img
                         className='veggieBox__video'
@@ -40,17 +40,38 @@ export const Devices = () => {
                         alt="" />
                     {/* <video className='veggieBox__video' src="https://res.cloudinary.com/ferjen/video/upload/v1686544154/portfolio/video/FJ-Intro_vk7pt1.mp4" autoPlay></video> */}
                     <div className='video-overlay'></div>
-                    <button
-                        className='btn-next btn-next--top'
-                        onClick={nextProject}
-                        style={{ transform: `rotate(${rotationDegreeTop}deg)` }}
-                    >
-                        <img
+                    <div className='tv-btn__container'>
+                        <button
+                            className='tv-btn'
+                            onClick={nextProject}
+                            style={{ transform: `rotate(${rotationDegreeTop}deg)` }}
+                        >
+                            <div className='btn-dot__container'>
+                                <div>
+                                    <img
+                                        className='tv-btn__image'
+                                        src="https://res.cloudinary.com/ferjen/image/upload/v1687042392/portfolio/projects/devices/tv-knob_oyd2wf.png" alt="" />
+                                </div>
+                                {/* <div className='dot dot-1'></div>
+                                <div className='dot dot-2'></div>
+                                <div className='dot dot-3'></div>
+                                <div className='dot dot-4'></div> */}
+                            </div>
+                        </button>
+
+                        <button
+                            className='btn-project'
+                            onClick={prevProject}
+                            style={{ transform: `rotate(${rotationDegreeLow}deg)` }}
+                        >
+                            MORE INFO
+                            {/* <img
                             className='btn-next--btn'
                             src="https://res.cloudinary.com/ferjen/image/upload/v1686529555/portfolio/projects/devices/TV-btn_rb1rww.png"
-                            alt="" />
-                    </button>
-                    <button
+                            alt="" /> */}
+                        </button>
+
+                        {/* <button
                         className='btn-next btn-next--low'
                         onClick={prevProject}
                         style={{ transform: `rotate(${rotationDegreeLow}deg)` }}
@@ -59,7 +80,8 @@ export const Devices = () => {
                             className='btn-next--btn'
                             src="https://res.cloudinary.com/ferjen/image/upload/v1686529555/portfolio/projects/devices/TV-btn_rb1rww.png"
                             alt="" />
-                    </button>
+                    </button> */}
+                    </div>
                 </div>
             </div>
         </div>
