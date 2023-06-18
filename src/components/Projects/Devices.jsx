@@ -10,10 +10,13 @@ export const Devices = () => {
 
     const projects = [
         { name: 'Project 1', gif: 'https://res.cloudinary.com/ferjen/image/upload/v1686533830/portfolio/video/static-low_sanazm.gif' },
-        { name: 'Project 2', gif: 'https://res.cloudinary.com/ferjen/image/upload/v1674531275/portfolio/projects/gif/VeggieBox_hk61er.gif' },
-        { name: 'Project 3', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDU3b3FpNGM5ZHB0cDQ3aDFhamoxMDZwMG95b2ZkeDkwOGc2eHMxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/470MxBwLQsgwRFO6bx/giphy.gif' },
-        { name: 'Project 4', gif: 'https://media.giphy.com/media/hVrYqWSpU8GPHreQX0/giphy.gif' },
-        { name: 'Project 5', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnVlM3BkMWQzd2p4Y2o5c3hiNXE0a3l0ZGFzNjN0M2hwc3BxdzZ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vWTs1YICbpa97bEbyp/giphy.gif' }
+        { name: 'Project 2', gif: 'https://res.cloudinary.com/ferjen/image/upload/v1687056918/portfolio/certif/certif-desarrollo-web_bckjqw.png' },
+        { name: 'Project 3', gif: 'https://res.cloudinary.com/ferjen/image/upload/v1674531275/portfolio/projects/gif/VeggieBox_hk61er.gif' },
+        { name: 'Project 4', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDU3b3FpNGM5ZHB0cDQ3aDFhamoxMDZwMG95b2ZkeDkwOGc2eHMxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/470MxBwLQsgwRFO6bx/giphy.gif' },
+        { name: 'Project 5', gif: 'https://res.cloudinary.com/ferjen/image/upload/v1687056917/portfolio/certif/certif-javascript_phtlan.png' },
+        { name: 'Project 6', gif: 'https://media.giphy.com/media/hVrYqWSpU8GPHreQX0/giphy.gif' },
+        { name: 'Project 7', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnVlM3BkMWQzd2p4Y2o5c3hiNXE0a3l0ZGFzNjN0M2hwc3BxdzZ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vWTs1YICbpa97bEbyp/giphy.gif' },
+        { name: 'Project 8', gif: 'https://res.cloudinary.com/ferjen/image/upload/v1687056918/portfolio/certif/certif-react_d9k9sm.png' }
     ];
 
     const nextProject = () => {
