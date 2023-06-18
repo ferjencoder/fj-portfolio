@@ -14,8 +14,6 @@ export const Devices = () => {
         { name: 'Project 3', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDU3b3FpNGM5ZHB0cDQ3aDFhamoxMDZwMG95b2ZkeDkwOGc2eHMxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/470MxBwLQsgwRFO6bx/giphy.gif' },
         { name: 'Project 4', gif: 'https://media.giphy.com/media/hVrYqWSpU8GPHreQX0/giphy.gif' },
         { name: 'Project 5', gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnVlM3BkMWQzd2p4Y2o5c3hiNXE0a3l0ZGFzNjN0M2hwc3BxdzZ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vWTs1YICbpa97bEbyp/giphy.gif' }
-
-        // <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/vWTs1YICbpa97bEbyp" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/vWTs1YICbpa97bEbyp">via GIPHY</a></p>
     ];
 
     const nextProject = () => {
@@ -59,7 +57,6 @@ export const Devices = () => {
                         <button
                             className='btn-project'
                             onClick={prevProject}
-                            style={{ transform: `rotate(${rotationDegreeLow}deg)` }}
                         >
                             MORE INFO
                         </button>
