@@ -87,7 +87,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    right: -4rem;
+    right: 5.5rem;
 }
 
 .btn-candy {
@@ -118,8 +118,8 @@
 
 .btn-project {
     position: absolute;
-    width: 4rem;
-    height: 1rem;
+    width: 8rem;
+    height: 1.2rem;
     border-radius: 0.3rem;
     border: 0;
     background-color: #ff26d7;
@@ -128,7 +128,7 @@
     cursor: pointer;
     color: #0d0b14;
     font-weight: 600;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
 }
 
 .btn-project:hover {
@@ -139,28 +139,13 @@
 }
 
 .btn-project {
-    top: 9.8rem;
+    top: 12.8rem;
     /* rotate: 30deg; */
 }
-
-/* .btn-next { */
-/* position: absolute; */
-/* width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    border: 0;
-    background-color: #ff26d7;
-    box-shadow: inset 0px 0px 5px 7px #ff0eb3;
-    background: linear-gradient(#ff26d7, #ba1c9d);
-    cursor: pointer; */
-/* }
- */
 
 .tv-btn {
     background-color: transparent;
     border: 0;
-    margin: 0;
-    padding: 0;
 }
 
 .tv-btn__image {
@@ -250,12 +235,17 @@
         position: relative;
     }
 
+    .tv-btn__container {
+        right: -4.1rem;
+    }
+
     .tv-btn__image {
-        width: 3rem;
-        height: 3rem;
+        width: 3.2rem;
+        height: 3.2rem;
         margin: 0;
         border: 0;
         padding: 0;
+        right: 0rem;
     }
 
     .btn-next:hover {
@@ -265,14 +255,7 @@
             inset -6px -6px 20px #ff30ff;
     }
 
-    .btn-next--top {
-        right: 1rem;
-        top: 20.6rem;
-    }
 
-    .btn-next--btn {
-        height: 5rem;
-    }
 
     .btn-project {
         position: absolute;
