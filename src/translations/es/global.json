@@ -15,30 +15,10 @@
             "alt": "React logo",
             "title": "React"
         },
-        "hmtl": {
-            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379564/portfolio/icons/skills/3hmtl_efcaxn.svg",
-            "alt": "HTML logo",
-            "title": "HTML"
-        },
         "redux": {
             "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/4redux_hydap6.svg",
             "alt": "Redux logo",
             "title": "Redux"
-        },
-        "css": {
-            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/5css_qvymac.svg",
-            "alt": "Css logo",
-            "title": "Css"
-        },
-        "sass": {
-            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/6sass_yragml.svg",
-            "alt": "Sass logo",
-            "title": "Sass"
-        },
-        "bootstrap": {
-            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/7bootstrap_afxmkh.svg",
-            "alt": "Bootstrap logo",
-            "title": "Bootstrap"
         },
         "firebase": {
             "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/8firebase_qdk2v5.svg",
@@ -50,7 +30,7 @@
             "alt": "Nodejs logo",
             "title": "Nodejs"
         },
-        "0git": {
+        "git": {
             "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/10git_ye1o4i.svg",
             "alt": "Git logo",
             "title": "Git"
@@ -74,6 +54,26 @@
             "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379460/portfolio/icons/skills/14adobe_mucibg.svg",
             "alt": "Adobe logo",
             "title": "Adobe"
+        },
+        "hmtl": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379564/portfolio/icons/skills/3hmtl_efcaxn.svg",
+            "alt": "HTML logo",
+            "title": "HTML"
+        },
+        "css": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/5css_qvymac.svg",
+            "alt": "Css logo",
+            "title": "Css"
+        },
+        "sass": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/6sass_yragml.svg",
+            "alt": "Sass logo",
+            "title": "Sass"
+        },
+        "bootstrap": {
+            "url": "https://res.cloudinary.com/ferjen/image/upload/v1686379458/portfolio/icons/skills/7bootstrap_afxmkh.svg",
+            "alt": "Bootstrap logo",
+            "title": "Bootstrap"
         }
     },
     "about": {

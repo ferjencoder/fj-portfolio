@@ -111,10 +111,12 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className='home__wave'>
                     <WaveBottom currentColor={currentColor} />
                     <WaveTopTwo currentColor={currentColor} />
                 </div>
+
             </section>
 
             <About />
@@ -137,8 +139,8 @@ export const Home = () => {
                 <div className='home__wave'>
                     <WaveBottom currentColor={currentColor} />
                     <WaveTopTwo currentColor={currentColor} />
-
                 </div>
+
             </section>
 
             <Projects />
